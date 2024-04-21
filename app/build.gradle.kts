@@ -52,6 +52,8 @@ android {
 
 dependencies {
 
+    implementation("com.google.android.material:material:1.7.0-beta01")
+    implementation ("androidx.activity:activity-compose:1.8.2")
     implementation(libs.androidx.navigation.runtime.ktx)
     implementation(libs.navigation.compose)
     implementation("androidx.compose.material:material:1.6.5")
@@ -80,7 +82,10 @@ dependencies {
     // optional - Paging 3 Integration
     // Room
 
-
+    implementation("com.google.code.gson:gson:2.10.1")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.3.0")
+    implementation (libs.accompanist.systemuicontroller)
 
 
     implementation("androidx.core:core-ktx:1.12.0")

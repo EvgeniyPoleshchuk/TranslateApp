@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ZhekaTranslate</string>
+    <string name="empty" translatable="false">
+        "Сохраняйте переводы, которые бывают вам часто нужны"
+    </string>
+    <string name="empry2" translatable="false">
+        "Чтобы сохранять часто используемые выражения,нажимайте на значок зведочки.
+    </string>
 </resources>

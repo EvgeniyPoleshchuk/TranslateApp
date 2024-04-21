@@ -7,17 +7,17 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
 
-//@Dao
-//abstract class TranslateDao {
-//
-//    @Insert(onConflict = OnConflictStrategy.IGNORE)
-//    abstract suspend fun addTranslate(translateEntity: Translate)
-//
-//    @Delete
-//    abstract suspend fun deleteTranslate(translateEntity: Translate)
-//
-//    @Query("Select * from `translate-table`")
-//    abstract fun getAllTranslate(): Flow<List<Translate>>
-//
-//
-//}
+@Dao
+abstract class TranslateDao {
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    abstract suspend fun addTranslate(translateEntity: Translate)
+
+    @Delete
+    abstract suspend fun deleteTranslate(translateEntity: Translate)
+
+    @Query("Select * from `translate-table`")
+    abstract fun getAllTranslate(): Flow<List<Translate>>
+
+
+}
